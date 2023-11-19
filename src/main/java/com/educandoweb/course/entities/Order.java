@@ -49,8 +49,9 @@ public class Order implements Serializable{
 		return id;
 	}
 
+	
 	public void setId(Long id) {
-		id = id;
+		this.id = id;
 	}
 
 	public Instant getMoment() {
